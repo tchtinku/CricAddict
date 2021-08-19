@@ -8,3 +8,5 @@ Color purpleColor = Color(0xff6018c6);
 Color pinkColor = Color(0xffad13be);
 Color textWhite = Color(0xffe7e2e8);
 Color textColor = Color(0xff01ffe2);
+
+const SERVER_URL = "https://cricaddict-backend.herokuapp.com";

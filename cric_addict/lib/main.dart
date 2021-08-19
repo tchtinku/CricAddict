@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'pages/loginpage.dart';
 
 void main() {
   runApp(MyApp());
 }
+
+final storage = new FlutterSecureStorage();
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.

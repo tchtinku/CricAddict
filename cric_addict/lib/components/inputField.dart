@@ -1,7 +1,7 @@
 import 'package:cric_addict/utils/constants.dart';
 import 'package:flutter/material.dart';
 
-Container inputFields(String initValue, Icon widget, bool password) {
+Container inputFields(String initValue, Icon widget, bool password, final controller) {
   return Container(
     margin: EdgeInsets.symmetric(vertical: 10),
     decoration: BoxDecoration(
@@ -9,12 +9,13 @@ Container inputFields(String initValue, Icon widget, bool password) {
       borderRadius: BorderRadius.circular(18.0),
     ),
     child: TextFormField(
+      controller: controller,
       obscureText: password ? true : false,
       cursorColor: textWhite,
       style: TextStyle(
         color: textWhite,
       ),
-      initialValue: initValue,
+      // initialValue: initValue,
       decoration: InputDecoration(
         focusedBorder: OutlineInputBorder(
           borderSide: const BorderSide(color: Colors.white, width: 2.0),
