@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'components/bottom_navigation.dart';
 import 'pages/loginpage.dart';
 
 void main() {
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Login(),
+      home: BottomNavigation(),
+      // Login(),
       debugShowCheckedModeBanner: false,
     );
   }

@@ -8,3 +8,6 @@ Color purpleColor = Color(0xff6018c6);
 Color pinkColor = Color(0xffad13be);
 Color textWhite = Color(0xffe7e2e8);
 Color textColor = Color(0xff01ffe2);
+Color greenColor = Color(0xff5B9D3C);
+Color yellowColor = Color(0xffFCF78F);
+Color greyColor = Color(0xffCCCCC9);

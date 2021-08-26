@@ -34,7 +34,7 @@ class _LoginState extends State<Login> {
                 width: MediaQuery.of(context).size.width * 0.8,
                 height: 150,
                 margin: EdgeInsets.only(bottom: 50),
-                child: SvgPicture.asset('assets/logo1.svg'),
+                child: Image.asset('assets/logo.png'),
               ),
               Container(
                 margin: EdgeInsets.only(bottom: 20),

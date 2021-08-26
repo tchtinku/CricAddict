@@ -42,6 +42,7 @@ class _RegisterState extends State<Register> {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
+              Image.asset('assets/logo.png'),
               Container(
                 margin: EdgeInsets.only(bottom: 20),
                 child: Text(
@@ -69,35 +70,35 @@ class _RegisterState extends State<Register> {
                   "Full name",
                   Icon(
                     Icons.person,
-                    color: textWhite,
+                    color: greyColor,
                   ),
                   false),
               inputFields(
                   "Phone",
                   Icon(
                     Icons.phone_android,
-                    color: textWhite,
+                    color: greyColor,
                   ),
                   false),
               inputFields(
                   "Email",
                   Icon(
                     Icons.mail_outline,
-                    color: textWhite,
+                    color: greyColor,
                   ),
                   false),
               inputFields(
                   "Password",
                   Icon(
                     Icons.lock,
-                    color: textWhite,
+                    color: greyColor,
                   ),
                   true),
               inputFields(
                   "Confirm Password",
                   Icon(
                     Icons.lock,
-                    color: textWhite,
+                    color: greyColor,
                   ),
                   true),
               Container(
